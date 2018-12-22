@@ -32,8 +32,8 @@
 	</replace>
 	
 	<!-- Better Docking Behaviour WIP -->
-	<replace sel="/parameters/docking/dock[@tags='dock_xs spacesuit']\@timeout">300</replace>
-	<replace sel="/parameters/docking/dock[@tags='dock_s']\@timeout">300</replace>
-	<replace sel="/parameters/docking/dock[@tags='dock_m']\@timeout">300</replace>
-	<replace sel="/parameters/docking/dock[@tags='dock_l dock_xl']\@timeout">300</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_xs spacesuit']/@timeout">300</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_s']/@timeout">300</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_m']/@timeout">300</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_l dock_xl']/@timeout">300</replace>
 </diff>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>	
+	<replace sel="//sound[@id='signal_leak_noisy']/sample">
+      <sample start="extensions\SmallGameTweaks\sfx\ambient\signalleak\noise_layer_01_extreme"/>
+	</replace>
+
+ 	<replace sel="//sound[@id='signal_leak_noisy_vault']/sample">
+      <sample start="extensions\SmallGameTweaks\sfx\ambient\signalleak\noise_layer_01_extreme"/>
+	</replace>
+	
+ 	<replace sel="//sound[@id='signal_leak_data']/sample">
+      <sample start="extensions\SmallGameTweaks\sfx\ambient\signalleak\testtone"/>
+	</replace>
+	
+ 	<replace sel="//sound[@id='corner_arg_standard_shipequipment_music']/sample">
+      <sample start="extensions\SmallGameTweaks\sfx\ambient\storemusic\me_galaxymap"/>
+	</replace>
+
+ 	<replace sel="//sound[@id='corner_arg_standard_shipdealer_music']/sample">
+      <sample start="extensions\SmallGameTweaks\sfx\ambient\storemusic\me_galaxymap"/>
+	</replace>
+	
+ 	<replace sel="//sound[@id='corner_arg_standard_inventorytrader_music']/sample">
+      <sample start="extensions\SmallGameTweaks\sfx\ambient\storemusic\me_galaxymap"/>
+	</replace>
+	
+	<replace sel="/soundlibrary/sound[@id='intro1_start']/sample">
+		<sample start="extensions\X4QoL\sfx\P1\cutscenes\intro1_start"/>
+	</replace>
+	
+	<replace sel="/soundlibrary/sound[@id='intro1_start']/volume">
+		<volume start="1.0" distance="5"/>
+	</replace>
+
+	<!-- 01 
+	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_jet_01']/volume">
+      <volume start="0.4" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.6"/>
+          <point position="0" value="0"/>
+          <point position="0.8" value="0.6"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_jet_02']/volume">
+      <volume start="0.4" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.6"/>
+          <point position="0" value="0"/>
+          <point position="0.8" value="0.6"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_lfe']/volume">
+      <volume start="1.0" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.8"/>
+          <point position="0" value="0.1"/>
+          <point position="0.8" value="0.8"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	-->
+	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_travel_loop']/volume">
+		<volume start="2.0" distance="10"/>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_gforce']/volume">
+      <volume start="1.5" distance="6">
+        <customcurve input="gforce">
+          <point position="0" value="0"/>
+          <point position="0.5" value="0.8"/>
+          <point position="1" value="1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_01_npc_m']/volume">
+      <volume start="0.4" distance="10">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="1"/>
+          <point position="-0.5" value="0.5"/>
+          <point position="0" value="0"/>
+          <point position="0.5" value="0.5"/>
+          <point position="1" value="1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<!-- 02 
+	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_jet_01']/volume">
+      <volume start="0.4" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.6"/>
+          <point position="0" value="0"/>
+          <point position="0.8" value="0.6"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_jet_02']/volume">
+      <volume start="0.4" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.6"/>
+          <point position="0" value="0"/>
+          <point position="0.8" value="0.6"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_lfe']/volume">
+      <volume start="1.0" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.8"/>
+          <point position="0" value="0.1"/>
+          <point position="0.8" value="0.8"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	-->
+	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_travel_loop']/volume">
+		<volume start="2.0" distance="10"/>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_gforce']/volume">
+      <volume start="1.5" distance="6">
+        <customcurve input="gforce">
+          <point position="0" value="0"/>
+          <point position="0.5" value="0.8"/>
+          <point position="1" value="1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_02_npc_m']/volume">
+      <volume start="0.4" distance="10">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="1"/>
+          <point position="-0.5" value="0.5"/>
+          <point position="0" value="0"/>
+          <point position="0.5" value="0.5"/>
+          <point position="1" value="1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<!-- 03
+	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_jet_01']/volume">
+      <volume start="0.4" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.6"/>
+          <point position="0" value="0"/>
+          <point position="0.8" value="0.6"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_jet_02']/volume">
+      <volume start="0.4" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.6"/>
+          <point position="0" value="0"/>
+          <point position="0.8" value="0.6"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_lfe']/volume">
+      <volume start="1.0" distance="20">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="0"/>
+          <point position="-0.5" value="0.8"/>
+          <point position="0" value="0.1"/>
+          <point position="0.8" value="0.8"/>
+          <point position="1" value="0.1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	-->
+	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_travel_loop']/volume">
+		<volume start="2.0" distance="10"/>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_gforce']/volume">
+      <volume start="1.5" distance="6">
+        <customcurve input="gforce">
+          <point position="0" value="0"/>
+          <point position="0.5" value="0.8"/>
+          <point position="1" value="1"/>
+        </customcurve>
+      </volume>
+	</replace>
+	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_03_npc_m']/volume">
+      <volume start="0.4" distance="10">
+        <customcurve input="forwardspeed">
+          <point position="-1" value="1"/>
+          <point position="-0.5" value="0.4"/>
+          <point position="0" value="0"/>
+          <point position="0.5" value="0.4"/>
+          <point position="1" value="1"/>
+        </customcurve>
+      </volume>
+	</replace>
+</diff>

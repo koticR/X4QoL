@@ -31,10 +31,11 @@ A "ready to go mod version" will be available in the Release section. And on the
 12. Added new Station-Store Music. (sound_library.xml & sfx\ambient\storemusic folder) _Note: Music is Subject to change_
 13. Lowered sound volume and distance for M Class engine sounds (NPCs only for now). (sound_library.xml)
 14. Increase volume for engine travel sound. (sound_library.xml)
-15. Increased radar range for all ship classes. (defaults.xml)
-16. You don't have to scan a station to 50%+ to get vital information. This was made because the current trading situation is rather unstable and seeing early if the economy is stalled is better. (infounlocklist.xml)
+15. Shortend the Intro Ship Sound (the engine blast part after you fly through the gate) since it was unbearable loud. Gamestart 1 for now only, others will follow. (sound_library.xml)
+16. Increased radar range for all ship classes. (defaults.xml)
+17. You don't have to scan a station to 50%+ to get vital information. This was made because the current trading situation is rather unstable and seeing early if the economy is stalled is better. (infounlocklist.xml)
 Remove 'infounlocklist.xml' if you consider it as cheating. I tried to keep it balanced you still need to scan stations to get all informations, just trading informations unlock earlier now.
-
+18. Increased radar range for all ship types. (defaults.xml)
 
 ***
 ## Useful Mods by other People.
@@ -45,7 +46,10 @@ Remove 'infounlocklist.xml' if you consider it as cheating. I tried to keep it b
 4. [Scaleplate Use All](https://www.nexusmods.com/x4foundations/mods/121) by DragonHeart013
 5. [Signal Leak Hunter](https://www.nexusmods.com/x4foundations/mods/51) by loktide
 6. [Trade Receiver Satellites](https://www.nexusmods.com/x4foundations/mods/120) by albysmith
-7. [Learning All The Things](https://www.nexusmods.com/x4foundations/mods/8) by iforgotmysocks
+7. [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) by iforgotmysocks **_Note: Although you can use the one above with the one here, it wouldn't make sense since both are different approaches for the same function._**
+8. [Learning All The Things](https://www.nexusmods.com/x4foundations/mods/8) by iforgotmysocks
+9. [Tradestation Economy Fix](https://www.nexusmods.com/x4foundations/mods/167) by icedesign2000
+10. [Higher Trade Station Demand](https://www.nexusmods.com/x4foundations/mods/176) by iforgotmysocks **_Note: Use either this mod or the one above but not both togther since they do practically the same._**
 
 
 ***
