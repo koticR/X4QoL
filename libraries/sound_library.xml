@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>	
 	<replace sel="//sound[@id='signal_leak_noisy']/sample">
-      <sample start="extensions\SmallGameTweaks\sfx\ambient\signalleak\noise_layer_01_extreme"/>
+      <sample start="extensions\X4QoL\sfx\ambient\signalleak\noise_layer_01_extreme"/>
 	</replace>
 
  	<replace sel="//sound[@id='signal_leak_noisy_vault']/sample">
-      <sample start="extensions\SmallGameTweaks\sfx\ambient\signalleak\noise_layer_01_extreme"/>
+      <sample start="extensions\X4QoL\sfx\ambient\signalleak\noise_layer_01_extreme"/>
 	</replace>
 	
  	<replace sel="//sound[@id='signal_leak_data']/sample">
-      <sample start="extensions\SmallGameTweaks\sfx\ambient\signalleak\testtone"/>
+      <sample start="extensions\X4QoL\sfx\ambient\signalleak\testtone"/>
 	</replace>
 	
  	<replace sel="//sound[@id='corner_arg_standard_shipequipment_music']/sample">
-      <sample start="extensions\SmallGameTweaks\sfx\ambient\storemusic\me_galaxymap"/>
+      <sample start="extensions\X4QoL\sfx\ambient\storemusic\me_galaxymap"/>
 	</replace>
 
  	<replace sel="//sound[@id='corner_arg_standard_shipdealer_music']/sample">
-      <sample start="extensions\SmallGameTweaks\sfx\ambient\storemusic\me_galaxymap"/>
+      <sample start="extensions\X4QoL\sfx\ambient\storemusic\me_galaxymap"/>
 	</replace>
 	
  	<replace sel="//sound[@id='corner_arg_standard_inventorytrader_music']/sample">
-      <sample start="extensions\SmallGameTweaks\sfx\ambient\storemusic\me_galaxymap"/>
+      <sample start="extensions\X4QoL\sfx\ambient\storemusic\me_galaxymap"/>
 	</replace>
 	
 	<replace sel="/soundlibrary/sound[@id='intro1_start']/sample">
