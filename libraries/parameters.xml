@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<!-- Faster Movement on Stations-->
+	<replace sel="/parameters/playerfirstperson/speed">
+		<speed pitch="5" yaw="7" forward="5" reverse="2.5" strafe="4" runfactor="2" walkfactor="0.5" crouchfactor="0.5" maxfall="90" />
+	</replace>
+	<replace sel="/parameters/playerfirstperson/jump">
+		<jump minheight="0.5" maxheight="1.25" />
+	</replace>
+	
+	<!-- Adjusted Lootmagnet to prevent overshooting -->
+	<replace sel="/parameters/lootmagnet">
+		<lootmagnet range="2500" force="2" maxspeed="75" sound="containermagnet_active" />
+	</replace>
+	
+	<!-- CloseUp Camera WIP -->
+	<replace sel="/parameters/playercamera/lookaround" >
+		<lookaround>
+		  <internal maxpitch="35" maxyaw="65" anglespeed="200" angleacc="500" trackmaxpitch="85" trackmaxyaw="85"/>
+		  <external maxpitch="85" initialpitch="20" posspeed="50" posacc="50" anglespeed="180" angleacc="360" zoomspeed="1" zoomperclick="0.1" minzoom="0.1" maxzoom="100" initialzoom="0.5" maxdistance="10000">
+			<aimindicator template="playership_crosshair_external_01" scale="1" offset="0.5" />
+			<targetarrow template="external_view_target_arrow_01" scale="0.02" offset="0.02">
+			  <color r="12" g="32" b="45" a="255" />
+			</targetarrow>
+			<missiontargetarrow template="external_view_target_arrow_01" scale="0.02" offset="0.04">
+			  <color r="47" g="40" b="12" a="255" />
+			</missiontargetarrow>
+		  </external>
+		  <externalhighway maxpitch="85" maxyaw="360" minzoom="0.75" maxzoom="30" maxdistance="1000" />
+		  <externalsurfaceelement minpitch="1" />
+		</lookaround>	
+	</replace>
+	
+	<!-- Better Docking Behaviour WIP -->
+	<replace sel="/parameters/docking/dock[@tags='dock_xs spacesuit']\@timeout">300</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_s']\@timeout">300</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_m']\@timeout">300</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_l dock_xl']\@timeout">300</replace>
+</diff>

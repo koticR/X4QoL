@@ -1,0 +1,10 @@
+#Ignore unfinished stuff
+/aiscripts/*
+/md/*
+/t/*
+/libraries/behaviours.xml
+/libraries/effects.xml
+/libraries/region_definitions.xml
+/libraries/shipgroups.xml
+/libraries/stock.xml
+/libraries/wares.xml

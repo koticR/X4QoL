@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+	<!-- Default Behaviour on certain signals for player owned ships -->
+	<replace sel="/factions/signals/signal[@id='piratehalt']/@default">flee</replace>
+	<replace sel="/factions/signals/signal[@id='foundabandonedship']/@default">mark</replace>
+	
+	<!-- Make Teladi use their Behaviour Set in behaviours.xml -->
+	<replace sel="/factions/faction[@id='teladi']/@behaviourset">teladi</replace>
+	<replace sel="/factions/faction[@id='ministry']/@behaviourset">teladi</replace>
+	<replace sel="/factions/faction[@id='scaleplate']/@behaviourset">teladi</replace>
+	
+	<!-- Make Khaak and Xenon Aggressive and Protective -->
+	<replace sel="//faction[@id='khaak']/@tags">aggressive protective notradeoffer privateloadout privateship</replace>
+	<replace sel="//faction[@id='xenon']/@tags">aggressive protective claimspace notradeoffer privateloadout privateship</replace>
+	
+	<!-- Lock faction relations for Khaak -->
+	<replace sel="//faction[@id='khaak']/relations">
+		<relations locked="1">
+		  <relation faction="alliance" relation="-1" />
+		  <relation faction="antigone" relation="-1" />
+		  <relation faction="argon" relation="-1" />
+		  <relation faction="civilian" relation="-1" />
+		  <relation faction="criminal" relation="-1" />
+		  <relation faction="hatikvah" relation="-1" />
+		  <relation faction="holyorder" relation="-1" />
+		  <relation faction="ministry" relation="-1" />
+		  <relation faction="paranid" relation="-1" />
+		  <relation faction="player" relation="-1" />
+		  <relation faction="scaleplate" relation="-1" />
+		  <relation faction="smuggler" relation="-1" />
+		  <relation faction="teladi" relation="-1" />
+		  <relation faction="visitor" relation="-1" />
+		  <relation faction="xenon" relation="-1" />
+		</relations>
+	</replace>
+	
+	<!-- Lock faction relations for Xenon -->
+	<replace sel="//faction[@id='xenon']/relations">
+		<relations locked="1">
+		  <relation faction="alliance" relation="-1" />
+		  <relation faction="antigone" relation="-1" />
+		  <relation faction="argon" relation="-1" />
+		  <relation faction="civilian" relation="-1" />
+		  <relation faction="criminal" relation="-1" />
+		  <relation faction="hatikvah" relation="-1" />
+		  <relation faction="holyorder" relation="-1" />
+		  <relation faction="khaak" relation="-1" />
+		  <relation faction="ministry" relation="-1" />
+		  <relation faction="paranid" relation="-1" />
+		  <relation faction="player" relation="-1" />
+		  <relation faction="scaleplate" relation="-1" />
+		  <relation faction="smuggler" relation="-1" />
+		  <relation faction="teladi" relation="-1" />
+		  <relation faction="visitor" relation="-1" />
+		</relations>
+	</replace>
+</diff>

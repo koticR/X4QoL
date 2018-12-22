@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//dataset[@class='ship_s']/properties/radar">
+		<radar range="50000"/>	
+	</replace>		
+	<replace sel="//dataset[@class='ship_s']/properties/statistics/max/radar">
+		<radar range="50000"/>
+	</replace>
+		<replace sel="//dataset[@class='ship_m']/properties/radar">
+		<radar range="100000"/>	
+	</replace>		
+	<replace sel="//dataset[@class='ship_m']/properties/statistics/max/radar">
+		<radar range="100000"/>
+	</replace>
+		<replace sel="//dataset[@class='ship_l']/properties/radar">
+		<radar range="200000"/>	
+	</replace>		
+	<replace sel="//dataset[@class='ship_l']/properties/statistics/max/radar">
+		<radar range="200000"/>
+	</replace>
+		<replace sel="//dataset[@class='ship_xl']/properties/radar">
+		<radar range="250000"/>	
+	</replace>		
+	<replace sel="//dataset[@class='ship_xl']/properties/statistics/max/radar">
+		<radar range="250000"/>
+	</replace>
+</diff>

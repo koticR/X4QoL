@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<replace sel="/inputmap/action[@id='INPUT_ACTION_WIDGET_TABSCROLL_RIGHT'][@source='INPUT_SOURCE_KEYBOARD']">
+		<action id="INPUT_ACTION_WIDGET_TABSCROLL_RIGHT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_E" sinceversion="110" />
+	</replace>
+	<replace sel="/inputmap/action[@id='INPUT_ACTION_WIDGET_TABSCROLL_LEFT'][@source='INPUT_SOURCE_KEYBOARD']">
+		<action id="INPUT_ACTION_WIDGET_TABSCROLL_LEFT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_Q" sinceversion="110" />
+	</replace>
+	<replace sel="/inputmap/state[@id='INPUT_STATE_MAP_ROTATE_LEFT'][@source='INPUT_SOURCE_KEYBOARD'][@code='INPUT_KEYCODE_Q']">
+		<state id="INPUT_STATE_MAP_ROTATE_LEFT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_LEFT_CONTROL" sinceversion="126" />
+	</replace>
+	<replace sel="/inputmap/state[@id='INPUT_STATE_MAP_ROTATE_RIGHT'][@source='INPUT_SOURCE_KEYBOARD'][@code='INPUT_KEYCODE_E']">
+		<state id="INPUT_STATE_MAP_ROTATE_RIGHT" source="INPUT_SOURCE_KEYBOARD" code="INPUT_KEYCODE_RIGHT_CONTROL" sinceversion="126" />
+	</replace>
+</diff>

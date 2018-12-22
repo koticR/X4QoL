@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//infounlocklist/infos">
+		<infos>
+			<info type="name" percent="1" />					<!-- object menu -->
+			<info type="owner" percent="1" />					<!-- map menu: info tab -->
+			<info type="production_products" percent="5" />		<!-- production menu -->
+			<info type="production_resources" percent="5" />	<!-- production menu -->
+			<info type="production_rate" percent="1" />			<!-- storage menu, production menu, LuaFunction::GetStorageData() -->
+			<info type="production_time" percent="1" />			<!-- object menu, production menu -->
+			<info type="consumption_rate" percent="1" />		<!-- production menu -->
+			<info type="operator_name" percent="1" />			<!-- object menu, controlentities menu, orders menu -->
+			<info type="operator_details" percent="15" />		<!-- controlentities menu, orders menu -->
+			<info type="operator_commands" percent="25" />		<!-- ships menu, controlentities menu, orders menu -->
+			<info type="defence_level" percent="70" />			<!-- object menu, military menu -->
+			<info type="defence_status" percent="70" />			<!-- object menu, military menu -->
+			<info type="efficiency_type" percent="50" />		<!-- production menu -->
+			<info type="efficiency_amount" percent="50" />		<!-- object menu, production menu -->
+			<info type="equipment_mods" percent="60" />
+			<info type="storage_capacity" percent="1" />		<!-- object menu, storage menu, LuaFunction::GetStorageData() -->
+			<info type="storage_amounts" percent="1" />			<!-- object menu, storage menu, LuaFunction::GetStorageData() -->
+			<info type="storage_warelist" percent="1" />		<!-- storage menu, LuaFunction::GetStorageData() -->
+			<info type="managed_ships" percent="1" />			<!-- object menu -->
+			<info type="docked_ships" percent="1" />
+			<info type="units_amount" percent="1" />			<!-- storage menu -->
+			<info type="units_capacity" percent="1" />			<!-- storage menu -->
+			<info type="units_details" percent="1" />			<!-- storage menu -->
+		</infos>
+	</replace>
+</diff>
