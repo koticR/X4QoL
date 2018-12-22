@@ -26,14 +26,14 @@ A "ready to go mod version" will be available in the Release section. And on the
 7. Khaak and Xenon are now aggressive and protective. This is an attempt to prevent them from trading with other factions. (factions.xml)
 8. Locked faction relations for Khaak to be always everyones Nemesis. See above (factions.xml)
 9. Locked faction relations for Xenon to be always everyones Nemesis. See above (factions.xml)
-10. On your map screen you can now use `Q` and `E` to switch between Tabs. Needs to be assigned in Controls Menu. `Ctrl + ->` and `Ctrl + <-` are now to rotate the map or you can use right mouse for that. (inputmap.xml)
+10. On your map screen you can now use `Q` and `E` to switch between Tabs. Needs to be assigned in Controls Menu. `Ctrl + →` and `Ctrl + ←` are now to rotate the map or you can use right mouse for that. (inputmap.xml)
 11. Added new Signal Leak SoundFX. (sound_library.xml & sfx\ambient\signalleak folder)
 12. Added new Station-Store Music. (sound_library.xml & sfx\ambient\storemusic folder) _Note: Music is Subject to change_
 13. Lowered sound volume and distance for M Class engine sounds (NPCs only for now). (sound_library.xml)
 14. Increase volume for engine travel sound. (sound_library.xml)
 15. Increased radar range for all ship classes. (defaults.xml)
 16. You don't have to scan a station to 50%+ to get vital information. This was made because the current trading situation is rather unstable and seeing early if the economy is stalled is better. (infounlocklist.xml)
-···Remove 'infounlocklist.xml' if you consider it as cheating. I tried to keep it balanced you still need to scan stations to get all informations, just trading informations unlock earlier now.
+Remove 'infounlocklist.xml' if you consider it as cheating. I tried to keep it balanced you still need to scan stations to get all informations, just trading informations unlock earlier now.
 
 
 ***
