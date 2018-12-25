@@ -35,9 +35,8 @@ A "ready to go mod version" will be available in the Release section. And on the
 16. Increased radar range for all ship classes. (defaults.xml)
 17. You don't have to scan a station to 50%+ to get vital information. This was made because the current trading situation is rather unstable and seeing early if the economy is stalled is better. (infounlocklist.xml)
 Remove 'infounlocklist.xml' if you consider it as cheating. I tried to keep it balanced you still need to scan stations to get all informations, just trading informations unlock earlier now.
-18. Increased radar range for all ship types. (defaults.xml)
-19. Altered Station NPC appearance, this means i removed two headshapes who looked kinda off. Only female for now since male characters look good enough for my taste.
-20. Incorporated [Bifidus06 - Various NPCs Mod](https://www.nexusmods.com/x4foundations/mods/27) and adjusted it a bit for 1.5. All credit goes to him!
+18. Altered Station NPC appearance, this means i removed two headshapes who looked kinda off. Only female for now since male characters look good enough for my taste.
+19. Incorporated [Bifidus06 - Various NPCs Mod](https://www.nexusmods.com/x4foundations/mods/27) and adjusted it a bit for 1.5. All credit goes to him!
 
 ***
 ## Useful Mods by other People.
@@ -51,7 +50,7 @@ Remove 'infounlocklist.xml' if you consider it as cheating. I tried to keep it b
 7. [Sector Satellites](https://www.nexusmods.com/x4foundations/mods/4) by iforgotmysocks **_Note: Although you can use the one above with the one here, it wouldn't make sense since both are different approaches for the same function._**
 8. [Learning All The Things](https://www.nexusmods.com/x4foundations/mods/8) by iforgotmysocks
 9. [Tradestation Economy Fix](https://www.nexusmods.com/x4foundations/mods/167) by icedesign2000
-10. [Shipyard Shortage Workaround](https://www.nexusmods.com/x4foundations/mods/181) by MegaJohnny **_Note: Works well with the Mod above.
+10. [Shipyard Shortage Workaround](https://www.nexusmods.com/x4foundations/mods/181) by MegaJohnny **_Note: Works well with the Mod above._**
 
 ***
 ## Install Instructions
