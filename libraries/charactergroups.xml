@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<diff>
+
+	<replace sel="//character[@name='argon.factionrepresentative.female']">
+		<character name="argon.factionrepresentative.female">
+			<select character="argon.civilian.female"/>
+		</character>
+	</replace>
+	
+	<replace sel="//character[@name='argon.factionrepresentative.male']">
+		<character name="argon.factionrepresentative.male">
+			<select character="argon.civilian.male"/>
+		</character>
+	</replace>
+
+</diff>

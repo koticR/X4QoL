@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<replace sel="//do_all[@exact='$patch_npcs.count']/do_if">
+        <do_if value="$patch_npcs.{$k}.role == entityrole.service or $patch_npcs.{$k}.role == entityrole.marine or $patch_npcs.{$k}.role == entityrole.pilot or $patch_npcs.{$k}.role == entityrole.manager">
+            <debug_text text="'Patching NPC ' + $patch_npcs.{$k} + ' ' + $patch_npcs.{$k}.knownname + ' who should be flagged as temporary'" filter="savegame"/>
+            <set_entity_traits entity="$patch_npcs.{$k}" temporary="true"/>
+        </do_if>
+	</replace>
+
+	<!-- Weights for regular stations -->
+	<replace sel="//do_if[@value='this.$SelectedRace']/do_any">
+		<do_any>
+			<set_value name="this.$Role" exact="entityrole.service" weight="40"/>
+			<set_value name="this.$Role" exact="entityrole.marine" weight="10"/>
+			<set_value name="this.$Role" exact="entityrole.pilot" weight="20"/>
+			<set_value name="this.$Role" exact="entityrole.manager" weight="10"/>
+		</do_any>
+	</replace>
+	<!-- Weights for defence stations -->
+	<replace sel="//do_elseif[@value='this.$Object.isdefencestation']/do_all/do_any">
+		<do_any>
+			<set_value name="this.$Role" exact="entityrole.service" weight="30"/>
+			<set_value name="this.$Role" exact="entityrole.marine" weight="40"/>
+			<set_value name="this.$Role" exact="entityrole.pilot" weight="20"/>
+			<set_value name="this.$Role" exact="entityrole.manager" weight="5"/>
+		</do_any>
+	</replace>
+</diff>

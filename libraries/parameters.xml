@@ -32,8 +32,32 @@
 	</replace>
 	
 	<!-- Better Docking Behaviour WIP -->
-	<replace sel="/parameters/docking/dock[@tags='dock_xs spacesuit']/@timeout">300</replace>
-	<replace sel="/parameters/docking/dock[@tags='dock_s']/@timeout">300</replace>
-	<replace sel="/parameters/docking/dock[@tags='dock_m']/@timeout">300</replace>
-	<replace sel="/parameters/docking/dock[@tags='dock_l dock_xl']/@timeout">300</replace>
+	<!-- <replace sel="/parameters/docking/dock[@tags='dock_xs spacesuit']/@timeout">300</replace> -->
+	<replace sel="/parameters/docking/dock[@tags='dock_s']/@timeout">30</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_m']/@timeout">30</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_l dock_xl']/@timeout">60</replace>
+	
+	<!-- <replace sel="/parameters/docking/dock[@tags='dock_xs spacesuit']/@maxdistance">300</replace> -->
+	<replace sel="/parameters/docking/dock[@tags='dock_s']/@maxdistance">500</replace>
+	<replace sel="/parameters/docking/dock[@tags='dock_m']/@maxdistance">500</replace>
+	<!-- <replace sel="/parameters/docking/dock[@tags='dock_l dock_xl']/@maxdistance">300</replace> -->
+	
+	<!-- Sound adjustments -->
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_xs']/@amount">1</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_s']/@amount">2</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_m']/@amount">3</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_l']/@amount">4</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_xl']/@amount">5</replace>
+	
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_xs']/@range">4000</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_s']/@range">7500</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_m']/@range">10000</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_l']/@range">15000</replace>
+	<replace sel="/parameters/sound/enginedetail/entry[@size='dock_xl']/@range">20000</replace>
+	
+	<!-- Mouse adjustments -->
+	<!-- <replace sel="/parameters/input/controllermouse/acceleration/@threshold">1</replace> -->
+	
+	<!-- Fewer Background Comm -->
+	<replace sel="/parameters/voice/backgroundcomm/@range">50000</replace>
 </diff>

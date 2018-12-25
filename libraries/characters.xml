@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" > 
+
+<add sel="/characters">
+	<!-- Pilot characters -->
+	<character id="pilot_argon_random_rookie" group="argon.pilot">
+		<category tags="[pilot, rookie]" faction="[argon, antigone, scaleplate, hatikvah, alliance, faction.player]" race="argon"/>
+			<skills>
+			  <skill type="piloting" min="3" max="8"/>
+			  <skill type="morale" max="3"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="management" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[argon, antigone]"/>
+	</character>
+	
+	<character id="pilot_teladi_random_rookie" group="teladi.pilot">
+		<category tags="[pilot, rookie]" faction="[teladi, ministry, scaleplate, hatikvah, alliance, faction.player]" race="teladi"/>
+			<skills>
+			  <skill type="piloting" min="3" max="8"/>
+			  <skill type="morale" max="3"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="management" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[teladi]"/>
+	</character>
+	
+	<character id="pilot_paranid_random_rookie" group="paranid.pilot">
+		<category tags="[pilot, rookie]" faction="[paranid, holyorder, scaleplate, hatikvah, alliance, faction.player]" race="paranid"/>
+			<skills>
+			  <skill type="piloting" min="3" max="8"/>
+			  <skill type="morale" max="3"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="management" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[paranid]"/>
+	</character>
+  
+	<character id="pilot_split_random_rookie" group="split.pilot">
+		<category tags="[pilot, rookie]" faction="[scaleplate, alliance, faction.player]" race="split"/>
+			<skills>
+			  <skill type="piloting" min="3" max="8"/>
+			  <skill type="morale" max="3"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="management" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[scaleplate, alliance]"/>
+	</character>
+  
+	<!-- Manager characters -->
+	<character id="manager_argon_random_rookie" group="argon.manager">
+		<category tags="[manager, officer, rookie]" faction="[argon, antigone, scaleplate, hatikvah, alliance, faction.player]" race="argon"/>
+			<skills>
+			  <skill type="management" min="4" max="10"/>
+			  <skill type="morale" min="4" max="10"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="piloting" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[argon, antigone]"/>
+	</character>
+   
+	<character id="manager_teladi_random_rookie" group="teladi.manager">
+		<category tags="[manager, officer, rookie]" faction="[teladi, ministry, scaleplate, hatikvah, alliance, faction.player]" race="teladi"/>
+			<skills>
+			  <skill type="management" min="4" max="10"/>
+			  <skill type="morale" min="4" max="10"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="piloting" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[teladi]"/>
+	</character>
+  
+	<character id="manager_paranid_random_rookie" group="paranid.manager">
+		<category tags="[manager, officer, rookie]" faction="[paranid, holyorder, scaleplate, hatikvah, alliance, faction.player]" race="paranid"/>
+			<skills>
+			  <skill type="management" min="4" max="10"/>
+			  <skill type="morale" min="4" max="10"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="piloting" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[paranid]"/>
+	</character>
+  
+	<character id="manager_split_random_rookie" group="split.manager">
+		<category tags="[manager, officer, rookie]" faction="[scaleplate, alliance, faction.player]" race="split"/>
+			<skills>
+			  <skill type="management" min="4" max="10"/>
+			  <skill type="morale" min="4" max="10"/>
+
+			  <skill type="engineering" max="1"/>
+			  <skill type="piloting" exact="0"/>
+			  <skill type="boarding" exact="0"/>
+			</skills>
+		<owner list="[scaleplate, alliance]"/>
+	</character>  
+</add>
+</diff> 

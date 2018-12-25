@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/roles">
+    <role id="pilot" name="{20208,30101}" femalename="{20208,30102}" pluralname="{20208,30101}" description="{20208,20204}" tag="pilot" hired="true" type="crowd">
+    <skills>
+      <skill ref="piloting" relevance="90" />
+      <skill ref="morale" relevance="10" />
+    </skills>
+    <tiers>
+      <tier name="{20208,50401}" level="0"/>
+      <tier name="{20208,50501}" level="25"/>
+      <tier name="{20208,50601}" level="80"/>
+    </tiers>
+	</role>
+	<role id="manager" name="{20208,30301}" femalename="{20208,30301}" pluralname="{20208,30302}" description="{20208,20204}" tag="manager" hired="true" type="crowd">
+	<skills>
+      <skill ref="management" relevance="90" />
+      <skill ref="morale" relevance="10" />
+    </skills>
+    <tiers>
+      <tier name="{20208,50401}" level="0"/>
+      <tier name="{20208,50501}" level="25"/>
+      <tier name="{20208,50601}" level="80"/>
+    </tiers>
+	</role>
+  </add>
+</diff>
