@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<!-- Argon Female (Pilot) - Rebirth Variant ToDo -->	
-	<remove sel="//macro[@name='character_argon_female_pilot_02_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
+	<!-- <remove sel="//macro[@name='character_argon_female_pilot_02_macro']/properties/models/model[@type='props']/select[@index='1']"></remove> -->
 	
 	<!-- Argon Female (Pilot) -->
 	<replace sel="//macro[@name='character_argon_female_pilot_03_macro']/properties/models/model[@type='head']/select[@index='1']">
@@ -22,10 +22,12 @@
 	<remove sel="//macro[@name='character_argon_female_pilot_06_macro']/properties/models/model[@type='head']/select[@index='4']"></remove>
 	<remove sel="//macro[@name='character_argon_female_pilot_06_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 	<remove sel="//macro[@name='character_argon_female_pilot_06_macro']/properties/models/model[@type='props']/select[@index='5']"></remove>
-	
+
 	<replace sel="//macro[@name='character_argon_female_pilot_07_macro']/properties/models/model[@type='head']/select[@index='1']">
 		<select index="1" ref="assets/characters/argon/heads/char_arg_f_head_afr_02" />
 	</replace>
+
+	
 	<remove sel="//macro[@name='character_argon_female_pilot_07_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 
 	<remove sel="//macro[@name='character_argon_female_pilot_08_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
@@ -33,19 +35,19 @@
 	<remove sel="//macro[@name='character_argon_female_pilot_09_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 	
 	
-	<!-- Argon Female (Civilian - Poor) -->
+	<!-- Argon Female (Civilian - Poor) 
 	<remove sel="//macro[@name='character_argon_female_civilian_01_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 	<remove sel="//macro[@name='character_argon_female_civilian_01_macro']/properties/models/model[@type='props']/select[@index='2']"></remove>
 	
 	<remove sel="//macro[@name='character_argon_female_civilian_02_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 	<remove sel="//macro[@name='character_argon_female_civilian_02_macro']/properties/models/model[@type='props']/select[@index='2']"></remove>
+	-->
 	
-	
-	<!-- Argon Female (Civilian - Average) -->
+	<!-- Argon Female (Civilian - Average) 
 	<remove sel="//macro[@name='character_argon_female_civilian_03_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 	
 	<remove sel="//macro[@name='character_argon_female_civilian_04_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
-	
+	-->
 	<remove sel="//macro[@name='character_argon_female_civilian_06_macro']/properties/models/model[@type='head']/select[@index='4']"></remove>
 	<remove sel="//macro[@name='character_argon_female_civilian_06_macro']/properties/models/model[@type='props']/select[@index='3']"></remove>
 	
@@ -55,6 +57,7 @@
 	<remove sel="//macro[@name='character_argon_female_civilian_08_macro']/properties/models/model[@type='head']/select[@index='4']"></remove>
 	<remove sel="//macro[@name='character_argon_female_civilian_08_macro']/properties/models/model[@type='props']/select[@index='3']"></remove>
 	
+
 	<replace sel="//macro[@name='character_argon_female_civilian_09_macro']/properties/models/model[@type='head']/select[@index='1']">
 		<select index="1" ref="assets/characters/argon/heads/char_arg_f_head_afr_02" />
 	</replace>
@@ -67,29 +70,31 @@
 		<select index="1" ref="assets/characters/argon/heads/char_arg_f_head_afr_02" />
 	</replace>	
 
+	<!-- Argon Female (Civilian - Rich) 
 	<remove sel="//macro[@name='character_argon_female_civilian_05_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 	<remove sel="//macro[@name='character_argon_female_civilian_05_macro']/properties/models/model[@type='props']/select[@index='2']"></remove>
-	
+	-->
 
-	<!-- Argon Female (Engineer) -->
+	<!-- Argon Female (Engineer) 
 	<remove sel="//macro[@name='character_argon_female_engineer_01_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
-	
+	-->
 	<remove sel="//macro[@name='character_argon_female_engineer_02_macro']/properties/models/model[@type='head']/select[@index='4']"></remove>
 	<remove sel="//macro[@name='character_argon_female_engineer_02_macro']/properties/models/model[@type='props']/select[@index='3']"></remove>
 
 	<replace sel="//macro[@name='character_argon_female_engineer_03_macro']/properties/models/model[@type='head']/select[@index='1']">
 		<select index="1" ref="assets/characters/argon/heads/char_arg_f_head_afr_02" />
 	</replace>
+
 	
-	
-	<!-- Argon Female (Trader) -->
+	<!-- Argon Female (Trader) 
 	<remove sel="//macro[@name='character_argon_female_trader_01_macro']/properties/models/model[@type='props']/select[@index='1']"></remove>
 	<remove sel="//macro[@name='character_argon_female_trader_01_macro']/properties/models/model[@type='props']/select[@index='2']"></remove>	
-	
+	-->
 	<remove sel="//macro[@name='character_argon_female_trader_02_macro']/properties/models/model[@type='head']/select[@index='4']"></remove>
 	<remove sel="//macro[@name='character_argon_female_trader_02_macro']/properties/models/model[@type='props']/select[@index='3']"></remove>
 
 	<replace sel="//macro[@name='character_argon_female_trader_03_macro']/properties/models/model[@type='head']/select[@index='1']">
 		<select index="1" ref="assets/characters/argon/heads/char_arg_f_head_afr_02" />
-	</replace>	
+	</replace>
+
 </diff>

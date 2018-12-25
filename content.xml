@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<content id="x4qol" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" save="0" enabled="1">
- <text language="44" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="49" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="7" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="33" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="34" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="39" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="55" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="81" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="82" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="86" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
- <text language="88" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="120" date="2018-25-12" />
+<content id="x4qol" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" save="0" enabled="1">
+ <text language="44" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="49" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="7" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="33" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="34" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="39" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="55" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="81" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="82" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="86" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
+ <text language="88" name="X4 Quality of Life Changes" description="Various small QoL changes" author="FlynTie" version="121" date="2018-25-12" />
 </content>
