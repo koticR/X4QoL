@@ -17,7 +17,7 @@
 	<replace sel="/parameters/playercamera/lookaround" >
 		<lookaround>
 		  <internal maxpitch="35" maxyaw="65" anglespeed="200" angleacc="500" trackmaxpitch="85" trackmaxyaw="85"/>
-		  <external maxpitch="85" initialpitch="20" posspeed="50" posacc="50" anglespeed="180" angleacc="360" zoomspeed="1" zoomperclick="0.1" minzoom="0.1" maxzoom="100" initialzoom="0.5" maxdistance="10000">
+		  <external maxpitch="85" initialpitch="20" posspeed="50" posacc="50" anglespeed="200" angleacc="500" zoomspeed="1" zoomperclick="0.1" minzoom="0.1" maxzoom="100" initialzoom="1" maxdistance="10000">
 			<aimindicator template="playership_crosshair_external_01" scale="1" offset="0.5" />
 			<targetarrow template="external_view_target_arrow_01" scale="0.02" offset="0.02">
 			  <color r="12" g="32" b="45" a="255" />

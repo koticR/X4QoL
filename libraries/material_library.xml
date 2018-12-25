@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+
+	<!-- Zone BG -->
+	<replace sel="//material[@name='map_bg_zone']">
+		<material name="map_bg_zone" shader="XU_simple.fx" blendmode="ALPHA8" preview="none">
+		  <properties>
+			<property type="BitMap" name="diffuse_map" value="assets\textures\fx\transparent_diff" />
+			<property type="Float" name="diffuseStr" value="1.0" />
+		  </properties>
+		</material>
+	</replace>
+	
+	<!-- Sector BG -->
+	<replace sel="//material[@name='map_bg_sector']">
+		<material name="map_bg_sector" shader="XU_simple.fx" blendmode="ALPHA8" preview="none">
+		  <properties>
+			<!--<property type="BitMap" name="diffuse_map" value="assets\textures\environments\gen_starcluster_01"></property>-->
+			<!--<property type="BitMap" name="diffuse_map" value="assets\legacy\textures\map\map_sec_07_bg.tga"></property>-->
+			<property type="BitMap" preload="1" name="diffuse_map" value="assets\textures\fx\transparent_diff" />
+			<property type="Float" name="diffuseStr" value="1.0" />
+		  </properties>
+		</material>
+	</replace>
+	
+	<!-- Galaxy BG -->
+	<replace sel="//material[@name='map_bg_galaxy']">
+		<material name="map_bg_galaxy" shader="XU_simple.fx" blendmode="ALPHA8" preview="none">
+		  <properties>
+			<property type="BitMap" name="diffuse_map" value="assets\textures\fx\transparent_diff" />
+			<property type="Float" name="diffuseStr" value="1.0" />
+		  </properties>
+		</material>
+	</replace>
+</diff>

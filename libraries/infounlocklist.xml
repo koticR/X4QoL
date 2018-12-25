@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<replace sel="//infounlocklist/infos">
+	<replace sel="/infounlocklist/infos">
 		<infos>
 			<info type="name" percent="1" />					<!-- object menu -->
 			<info type="owner" percent="1" />					<!-- map menu: info tab -->
@@ -28,3 +28,5 @@
 		</infos>
 	</replace>
 </diff>
+
+<!-- NOTE: Sometimes reports error in D-Log and i don't know why.
