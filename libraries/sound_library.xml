@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<diff>	
+<diff>
+	<!-- Main Menu Music -->
+	<replace sel="/soundlibrary/sound[@id='music_menu_main_music']">
+		<sound id="music_menu_main_music" description="Music for the main menu" repeat="-1" is3d="0" preload="0">
+			<sample selection="random">
+				<select start="extensions\X4QoL\music\menu\ME3_Menu"/>			
+			</sample>
+			<volume start="2.0"/>
+			<effects>
+				<fade in="1.66667" out="0.666667"/>
+			</effects>
+		</sound>
+	</replace>
+	
+	<!-- Signal Leak -->
 	<replace sel="//sound[@id='signal_leak_noisy']/sample">
       <sample start="extensions\X4QoL\sfx\ambient\signalleak\noise_layer_01_extreme"/>
 	</replace>
@@ -32,8 +46,9 @@
 		<volume start="1.0" distance="5"/>
 	</replace>
 
-	<!-- 01 
-	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_jet_01']/volume">
+	<!-- M Engine Sounds -->
+	<!-- 01 ToDo
+	<replace sel="//sound[@id='enginedetail_ship_m_01_jet_01']/volume">
       <volume start="0.4" distance="20">
         <customcurve input="forwardspeed">
           <point position="-1" value="0"/>
@@ -44,7 +59,7 @@
         </customcurve>
       </volume>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_jet_02']/volume">
+	<replace sel="//sound[@id='enginedetail_ship_m_01_jet_02']/volume">
       <volume start="0.4" distance="20">
         <customcurve input="forwardspeed">
           <point position="-1" value="0"/>
@@ -55,7 +70,7 @@
         </customcurve>
       </volume>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_lfe']/volume">
+	<replace sel="//sound[@id='enginedetail_ship_m_01_lfe']/volume">
       <volume start="1.0" distance="20">
         <customcurve input="forwardspeed">
           <point position="-1" value="0"/>
@@ -67,11 +82,19 @@
       </volume>
 	</replace>
 	-->
-	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_travel_loop']/volume">
-		<volume start="2.0" distance="10"/>
+
+	<replace sel="//sound[@id='enginedetail_ship_m_01_thrusters_maneuvering_left']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_01_thrusters_maneuvering_right']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_01_thrusters_maneuvering_up']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_01_thrusters_maneuvering_down']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_01_thrusters_maneuvering_roll_left']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_01_thrusters_maneuvering_roll_right']/volume/@start">0.4</replace>
+		
+	<replace sel="//sound[@id='enginedetail_ship_m_01_travel_loop']/volume">
+		<volume start="2.0" distance="20"/>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_m_01_gforce']/volume">
-      <volume start="1.5" distance="6">
+	<replace sel="//sound[@id='enginedetail_ship_m_01_gforce']/volume">
+      <volume start="1.5" distance="10">
         <customcurve input="gforce">
           <point position="0" value="0"/>
           <point position="0.5" value="0.8"/>
@@ -79,8 +102,8 @@
         </customcurve>
       </volume>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_01']/sound[@id='enginedetail_ship_01_npc_m']/volume">
-      <volume start="0.4" distance="10">
+	<replace sel="//sound[@id='enginedetail_ship_01_npc_m']/volume">
+      <volume start="0.4" distance="5">
         <customcurve input="forwardspeed">
           <point position="-1" value="1"/>
           <point position="-0.5" value="0.5"/>
@@ -90,8 +113,9 @@
         </customcurve>
       </volume>
 	</replace>
-	<!-- 02 
-	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_jet_01']/volume">
+	
+	<!-- 02 ToDo
+	<replace sel="//sound[@id='enginedetail_ship_m_02_jet_01']/volume">
       <volume start="0.4" distance="20">
         <customcurve input="forwardspeed">
           <point position="-1" value="0"/>
@@ -102,7 +126,7 @@
         </customcurve>
       </volume>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_jet_02']/volume">
+	<replace sel="//sound[@id='enginedetail_ship_m_02_jet_02']/volume">
       <volume start="0.4" distance="20">
         <customcurve input="forwardspeed">
           <point position="-1" value="0"/>
@@ -113,7 +137,7 @@
         </customcurve>
       </volume>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_lfe']/volume">
+	<replace sel="//sound[@id='enginedetail_ship_m_02_lfe']/volume">
       <volume start="1.0" distance="20">
         <customcurve input="forwardspeed">
           <point position="-1" value="0"/>
@@ -125,11 +149,19 @@
       </volume>
 	</replace>
 	-->
-	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_travel_loop']/volume">
-		<volume start="2.0" distance="10"/>
+	
+	<replace sel="//sound[@id='enginedetail_ship_m_02_thrusters_maneuvering_left']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_02_thrusters_maneuvering_right']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_02_thrusters_maneuvering_up']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_02_thrusters_maneuvering_down']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_02_thrusters_maneuvering_roll_left']/volume/@start">0.4</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_02_thrusters_maneuvering_roll_right']/volume/@start">0.4</replace>
+	
+	<replace sel="//sound[@id='enginedetail_ship_m_02_travel_loop']/volume">
+		<volume start="2.0" distance="20"/>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_m_02_gforce']/volume">
-      <volume start="1.5" distance="6">
+	<replace sel="//sound[@id='enginedetail_ship_m_02_gforce']/volume">
+      <volume start="1.5" distance="10">
         <customcurve input="gforce">
           <point position="0" value="0"/>
           <point position="0.5" value="0.8"/>
@@ -137,8 +169,8 @@
         </customcurve>
       </volume>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_02']/sound[@id='enginedetail_ship_02_npc_m']/volume">
-      <volume start="0.4" distance="10">
+	<replace sel="//sound[@id='enginedetail_ship_02_npc_m']/volume">
+      <volume start="0.4" distance="5">
         <customcurve input="forwardspeed">
           <point position="-1" value="1"/>
           <point position="-0.5" value="0.5"/>
@@ -148,7 +180,8 @@
         </customcurve>
       </volume>
 	</replace>
-	<!-- 03
+	
+	<!-- 03 ToDo
 	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_jet_01']/volume">
       <volume start="0.4" distance="20">
         <customcurve input="forwardspeed">
@@ -183,11 +216,19 @@
       </volume>
 	</replace>
 	-->
-	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_travel_loop']/volume">
-		<volume start="2.0" distance="10"/>
+	
+	<replace sel="//sound[@id='enginedetail_ship_m_03_thrusters_maneuvering_left']/volume/@start">0.8</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_03_thrusters_maneuvering_right']/volume/@start">0.8</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_03_thrusters_maneuvering_up']/volume/@start">0.8</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_03_thrusters_maneuvering_down']/volume/@start">0.8</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_03_thrusters_maneuvering_roll_left']/volume/@start">0.8</replace>
+	<replace sel="//sound[@id='enginedetail_ship_m_03_thrusters_maneuvering_roll_right']/volume/@start">0.8</replace>
+	
+	<replace sel="//sound[@id='enginedetail_ship_m_03_travel_loop']/volume">
+		<volume start="2.0" distance="20"/>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_m_03_gforce']/volume">
-      <volume start="1.5" distance="6">
+	<replace sel="//sound[@id='enginedetail_ship_m_03_gforce']/volume">
+      <volume start="1.5" distance="10">
         <customcurve input="gforce">
           <point position="0" value="0"/>
           <point position="0.5" value="0.8"/>
@@ -195,8 +236,8 @@
         </customcurve>
       </volume>
 	</replace>
-	<replace sel="//group[@id='enginedetail_ship_m_03']/sound[@id='enginedetail_ship_03_npc_m']/volume">
-      <volume start="0.4" distance="10">
+	<replace sel="//sound[@id='enginedetail_ship_03_npc_m']/volume">
+      <volume start="0.4" distance="5">
         <customcurve input="forwardspeed">
           <point position="-1" value="1"/>
           <point position="-0.5" value="0.4"/>
@@ -205,5 +246,62 @@
           <point position="1" value="1"/>
         </customcurve>
       </volume>
+	</replace>
+	
+	<!-- Cockpit Warning Sounds -->
+	<replace sel="//sound[@id='cockpit_alert']/volume/@distance">0.2</replace>
+	<replace sel="//sound[@id='cockpit_proximity_alert']/volume/@distance">0.2</replace>
+	
+	<!-- Projectile Hit SFX -->
+	<replace sel="//sound[@id='sefx_shield_s_01']/sample">
+		<sample start="sfx\impact\shield_surface_impact_01"/>
+	</replace>
+	<replace sel="//sound[@id='sefx_shield_m_01']/sample">
+		<sample start="sfx\impact\shield_surface_impact_02"/>
+	</replace>
+	<replace sel="//sound[@id='sefx_shield_l_01']/sample">
+		<sample start="sfx\impact\shield_surface_impact_03"/>
+	</replace>
+	
+	<!-- Alternative Suspense Music -->
+	<replace sel="//sound[@id='music_suspense']/sample">
+		<sample selection="random">
+			<select start="extensions\X4QoL\music\Suspense\suspense_track_04"/>
+			<select start="extensions\X4QoL\music\Suspense\suspense_track_05"/>
+			<select start="extensions\X4QoL\music\Suspense\suspense_track_06"/>
+		</sample>
+	</replace>
+
+	<!-- Adjusted Spacesuit SFX -->
+	<replace sel="//sound[@id='enginedetail_spacesuit_01_jet_01']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_01_jet_01"/>
+	</replace>
+	
+	<replace sel="//sound[@id='enginedetail_spacesuit_s_01_boost_loop']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_boost_loop"/>
+	</replace>
+	
+	<replace sel="//sound[@id='enginedetail_spacesuit_01_thrusters_maneuvering_left']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_01_thrusters_maneuvering"/>
+	</replace>
+	
+	<replace sel="//sound[@id='enginedetail_spacesuit_01_thrusters_maneuvering_right']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_01_thrusters_maneuvering"/>
+	</replace>
+	
+	<replace sel="//sound[@id='enginedetail_spacesuit_01_thrusters_maneuvering_up']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_01_thrusters_maneuvering"/>
+	</replace>
+	
+	<replace sel="//sound[@id='enginedetail_spacesuit_01_thrusters_maneuvering_down']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_01_thrusters_maneuvering"/>
+	</replace>
+	
+	<replace sel="//sound[@id='enginedetail_spacesuit_01_thrusters_maneuvering_roll_left']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_01_thrusters_maneuvering"/>
+	</replace>
+	
+	<replace sel="//sound[@id='enginedetail_spacesuit_01_thrusters_maneuvering_roll_right']/sample">
+		<sample start="extensions\X4QoL\sfx\engines\spacesuit\enginedetail_spacesuit_01_thrusters_maneuvering"/>
 	</replace>
 </diff>

@@ -3,13 +3,13 @@
 
 	<replace sel="//character[@name='argon.factionrepresentative.female']">
 		<character name="argon.factionrepresentative.female">
-			<select character="argon.civilian.female"/>
+			<select character="argon.manager.female"/>
 		</character>
 	</replace>
 	
 	<replace sel="//character[@name='argon.factionrepresentative.male']">
 		<character name="argon.factionrepresentative.male">
-			<select character="argon.civilian.male"/>
+			<select character="argon.manager.male"/>
 		</character>
 	</replace>
 
