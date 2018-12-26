@@ -1,7 +1,7 @@
 # X4 Foundation Quality of Life Changes
 ***
 
-Repository of various small QoL changes for the game [X4 Foundation](https://www.egosoft.com/games/x4/info_en.php) by Egosoft.
+Repository of various small QoL changes for the game [X4 Foundations](https://www.egosoft.com/games/x4/info_en.php) by Egosoft.
 
 #### **_Please note:_**
 1. **Don't** just download everything or a file from here! Make sure you check the Version below first. Like always in life we move on and so do I, which means **i'm not keeping this repo up-to-date forever!** If the Version doesn't match the current available game version do not use anything from here, or at least double check that it doesn't interfere with the game.
